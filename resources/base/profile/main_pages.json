@@ -1,0 +1,10 @@
+{
+  "src": [
+    "pages/MainPage",
+    "pages/meun",
+    "pages/WebPage",
+    "pages/ServicePage",
+    "pages/change",
+    "pages/help"
+  ]
+}

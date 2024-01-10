@@ -1,0 +1,117 @@
+
+/* 重置样式 */
+* {
+    margin: 0;
+    padding: 0; /* 去除无序列表的样式 */
+    list-style: none; /* 去除文本的样式 */
+    text-decoration: none;
+}
+
+/* 图片样式 */
+img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: block;
+}
+
+/* 抽奖列表 */
+.prizes {
+    width: 96.5%;
+    height: 96.7%;
+    position: absolute;
+}
+
+/* 开始抽奖文本 */
+.trigger {
+    font-size: 22px;
+    text-align: center;
+    display:block;
+}
+
+/* 奖品格子 */
+.prizes li {
+    width: 30.6%;
+    height: 30.6%;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+
+/* 奖品格子位置 */
+.prizes li:nth-of-type(1) {
+    left: 3.0%;
+    top: 2.7%;
+}
+
+.prizes li:nth-of-type(2) {
+    left: 34.9%;
+    top: 2.6%;
+}
+
+.prizes li:nth-of-type(3) {
+    left: 66.8%;
+    top: 2.7%;
+}
+
+.prizes li:nth-of-type(4) {
+    left: 66.8%;
+    top: 34.6%;
+}
+
+.prizes li:nth-of-type(5) {
+    left: 66.8%;
+    top: 66.5%;
+}
+
+.prizes li:nth-of-type(6) {
+    left: 34.9%;
+    top: 66.5%;
+}
+
+.prizes li:nth-of-type(7) {
+    left: 3.0%;
+    top: 66.5%;
+}
+
+.prizes li:nth-of-type(8) {
+    left: 3.0%;
+    top: 34.6%;
+}
+
+.prizes li:nth-of-type(9) {
+    left: 34.9%;
+    top: 34.6%;
+}
+
+/* 抽奖效果 */
+.active:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    content: "";
+    height: 100%;
+    position: absolute;
+    opacity : 0.6;
+    background-size: contain;
+    background-image:url('../img/background.svg');
+}
+
+#prize {
+    border-radius: 16px 16px 16px 16px;
+    background-image: linear-gradient(180deg, #A2DAFF 0%, #EAF5FF 100%);
+    margin-left: 1.82%;
+    margin-top: 1.43%;
+    width: 96.5%;
+    height: 96.7%;
+}
+
+
+
+
+
+
+
+
+
+
